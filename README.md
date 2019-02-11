@@ -7,3 +7,5 @@ To run the visualization:
 2) Start a local webserver or Go to cmd and type: python -m http.server. Open browser and ping http://localhost:8000/
 3) Locate this project folder in your system
 4) Run the HansRoslingViz.html file
+
+![alt text](https://github.com/Curious-Soul/Hans-Rosling-Visualization/blob/master/Visualization.PNG)
