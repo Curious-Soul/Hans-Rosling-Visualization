@@ -755,7 +755,7 @@
 			}
 		}
 		//Load the original un-interpolated data
-		d3.csv("./GCI_CompleteData4.csv", function(error, data1){
+		d3.csv("https://github.com/Curious-Soul/Hans-Rosling-Visualization/blob/master/GCI_CompleteData4.csv", function(error, data1){
 			// handle any data loading errors
 			if(error){
 				console.log("Something went wrong");
@@ -790,7 +790,7 @@
 		}
 		);
 			// Load the interpolated file data.csv and generate a visualisation based on it
-			d3.csv("./GCI_Updated.csv", function(error, data){
+			d3.csv("https://github.com/Curious-Soul/Hans-Rosling-Visualization/blob/master/GCI_Updated.csv", function(error, data){
 				// handle any data loading errors
 				if(error){
 					console.log("Something went wrong");
@@ -959,7 +959,7 @@
 		.padding(0.6);		
 
 		//csv file loaded to generate vizualization based on it.
-		d3.csv("./GCI_Updated.csv", function(error, data1) {
+		d3.csv("https://github.com/Curious-Soul/Hans-Rosling-Visualization/blob/master/GCI_Updated.csv", function(error, data1) {
 			 if (error) throw error;
 			 keys = data1.columns.slice(3,15);
 			 data=data1;
